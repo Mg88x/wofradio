@@ -2,66 +2,20 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Once and for all dice away</title>
+    <title> A.M.O. </title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fff;
-            color: #333;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100vh;
-        }
-        .play-button {
-            background-color: #0080A0;
-            color: #fff;
-            border: none;
-            padding: 20px 40px;
-            font-size: 18px;
-            cursor: pointer;
-            border-radius: 5px;
-            margin: 0 auto;
-            transition: background-color 0.3s ease-in-out;
-        }
-        .play-button:hover {
-            background-color: #005C7A;
-        }
-    </style>
-</head>
-<body>
-    <main>
-        <button class="play-button" id="randomButton">Once and for all dice away</button>
-    </main>
+ Bienvenido a la Asociación de Magos del Oeste.
 
-    <script>
-        var stations = [
-            'https://kathy.torontocast.com:3340/;.mp3',
-            'https://mediaserv73.live-streams.nl:18058/stream',
-            'https://quincy.torontocast.com:1505/stream',
-            'https://radio.punkrockdemo.com/;&type=mp3',
-            'https://antares.dribbcast.com/proxy/jrn_reggae?mp=/stream',
-            'https://stream.laut.fm/1000rockhits',
-            'https://stream-160.zeno.fm/bdh16ndn6s8uv?zs=EGj-eLK5QnOkMTC_k6fDIg',
-            'https://listen.radioking.com/radio/453296/stream/508976'
-        ];
+Esta ONG fue fundada en el año 2016 por jugadores de Magic The Gathering para promoción de actividades relacionadas al producto en GBA Oeste y alrededores, así también para promover los valores societarios, cooperativos y deportivos del mismo. Creemos que jugar Magic The Gathering colabora a desarrollar mejores individuos para la sociedad. No permitimos comportamientos ofensivos e inadecuados hacia el grupo, ni el proselitismo político y/o religioso. 
 
-        document.getElementById('randomButton').addEventListener('click', function() {
-            var randomIndex = Math.floor(Math.random() * stations.length);
-            playStation(stations[randomIndex]);
-        });
+En este grupo de whatsapp está permitido:
 
-        function playStation(station) {
-            var audio = new Audio(station);
-            audio.play();
-        }
-    </script>
+1 - Debatir sobre MTG.
+2- Informar sobre eventos y actividades de MTG o relacionados.
+3- Publicitar, vender o subastar productos de MTG.
+
+Todo esto siempre con el debido respeto, ubicación y comportamiento necesario. 
+
 </body>
 </html>
